@@ -11,6 +11,8 @@ URL:		https://github.com/noonien-d/pidgin-xmpp-receipts/
 Source0:	https://github.com/noonien-d/pidgin-xmpp-receipts/archive/refs/tags/%{git_tag}.tar.gz#/pidgin-xmpp-receipts-%{version}.tar.gz
 
 BuildRequires: pidgin-devel
+BuildRequires: gcc
+BuildRequires: make
 Requires:	libpurple
 
 %description
