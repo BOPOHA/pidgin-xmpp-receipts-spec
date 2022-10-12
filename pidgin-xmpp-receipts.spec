@@ -1,3 +1,5 @@
+%global debug_package %{nil}
+
 %define git_tag release_%{version}
 
 Name:		pidgin-xmpp-receipts
